@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aol Wellbeing Services</title>
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background: linear-gradient(135deg, #fff7f7 0%, #fefcbf 100%);
+            color: #2D3748;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 900px;
+            margin: 20px auto;
+            background-color: #ffffff;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+        }
+        .header {
+            text-align: center;
+            padding: 40px 20px;
+            background: linear-gradient(to right, #F56565, #ED8936);
+            color: #ffffff;
+            border-radius: 10px 10px 0 0;
+        }
+        .header img {
+            max-width: 200px;
+            border-radius: 8px;
+            margin-bottom: 15px;
+        }
+        h1, h2, h3 {
+            font-family: 'Poppins', sans-serif;
+            color: #2D3748;
+        }
+        h1 {
+            font-size: 30px;
+            margin: 10px 0;
+        }
+        h2 {
+            font-size: 24px;
+            border-bottom: 2px solid #F56565;
+            padding-bottom: 8px;
+            margin-top: 25px;
+        }
+        h3 {
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+        p {
+            margin: 12px 0;
+            font-size: 16px;
+        }
+        .call-button {
+            display: inline-flex;
+            align-items: center;
+            background-color: #F56565;
+            color: #ffffff;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 30px;
+            font-weight: 600;
+            margin-top: 15px;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+        }
+        .call-button:hover {
+            background-color: #E53E3E;
+            color: #ffffff;
+            transform: translateY(-2px);
+        }
+        .call-button svg {
+            margin-right: 10px;
+            width: 18px;
+            height: 18px;
+            fill: #ffffff;
+        }
+        .ringing-button {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            background-color: #ED8936;
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+            transition: background-color 0.3s ease, transform 0.2s ease;
+            animation: ring 0.5s ease-in-out infinite alternate;
+        }
+        .ringing-button:hover {
+            background-color: #DD6B20;
+            transform: scale(1.1);
+        }
+        .ringing-button svg {
+            width: 26px;
+            height: 26px;
+            fill: #ffffff;
+        }
+        @keyframes ring {
+            0% { transform: rotate(5deg); }
+            100% { transform: rotate(-5deg); }
+        }
+        .footer {
+            margin-top: 30px;
+            font-size: 14px;
+            text-align: center;
+            color: #4A5568;
+            border-top: 1px solid #E2E8F0;
+            padding-top: 20px;
+        }
+        a {
+            color: #F56565;
+            text-decoration: none;
+            font-weight: 500;
+        }
+        a:hover {
+            color: #ED8936;
+            text-decoration: underline;
+        }
+        @media (max-width: 600px) {
+            .container {
+                padding: 15px;
+                margin: 10px;
+            }
+            .header {
+                padding: 20px;
+            }
+            .header img {
+                max-width: 150px;
+            }
+            .ringing-button {
+                width: 50px;
+                height: 50px;
+            }
+            .ringing-button svg {
+                width: 22px;
+                height: 22px;
+            }
+        }
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&family=Poppins:wght@600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/2/2b/AOL_logo_%282024%29.svg" alt="Aol Wellbeing Services Logo">
+            <h1>Aol Support Line</h1>
+            <h2>Connect with Our Caring Team</h2>
+        </div>
+        <h2>Explore Aol’s Support Services</h2>
+        <p>Have questions about our services or need help navigating mental health challenges or domestic violence concerns? Aol Wellbeing Services is here to provide compassionate, confidential support tailored to the South Asian community.</p>
+        <p>Whether you’re new to Aol or seeking ongoing assistance, our <a href="https://www.aolwellbeingservices.org">Help Center</a> offers resources to learn about our counseling programs, connect with trained professionals, or find answers to your questions. We’re dedicated to fostering emotional resilience and family strength.</p>
+        <a href="tel:+1234567890" class="call-button">
+            <svg viewBox="0 0 24 24">
+                <path d="M6.62 10.79a15.91 15.91 0 006.59 6.59l2.2-2.2a1 1 0 011.11-.22 11.36 11.36 0 003.54.57 1 1 0 011 1v3.5a1 1 0 01-1 1A17.93 17.93 0 013 4a1 1 0 011-1h3.5a1 1 0 011 1 11.36 11.36 0 00.57 3.54 1 1 0 01-.22 1.11l-2.2 2.2z"/>
+            </svg>
+            Call Aol Support
+        </a>
+
+        <h2>Prioritize Your Mental Health</h2>
+        <p>Aol offers a safe, judgment-free space to address issues like anxiety, depression, trauma, or domestic violence. Our experienced counselors and Independent Domestic Violence Advocates (IDVAs) provide personalized guidance to help you through tough times.</p>
+        <a href="tel:+1234567890" class="call-button">
+            <svg viewBox="0 0 24 24">
+                <path d="M6.62 10.79a15.91 15.91 0 006.59 6.59l2.2-2.2a1 1 0 011.11-.22 11.36 11.36 0 003.54.57 1 1 0 011 1v3.5a1 1 0 01-1 1A17.93 17.93 0 013 4a1 1 0 011-1h3.5a1 1 0 011 1 11.36 11.36 0 00.57 3.54 1 1 0 01-.22 1.11l-2.2 2.2z"/>
+            </svg>
+            Call Aol Support
+        </a>
+
+        <h2>Support for Domestic Violence & Mental Wellness</h2>
+        <p>Struggling with domestic violence or mental health challenges? Aol provides free counseling for individuals aged 14+ and expert support for those facing abusive situations, empowering you to take control of your well-being.</p>
+        <a href="tel:+1234567890" class="call-button">
+            <svg viewBox="0 0 24 24">
+                <path d="M6.62 10.79a15.91 15.91 0 006.59 6.59l2.2-2.2a1 1 0 011.11-.22 11.36 11.36 0 003.54.57 1 1 0 011 1v3.5a1 1 0 01-1 1A17.93 17.93 0 013 4a1 1 0 011-1h3.5a1 1 0 011 1 11.36 11.36 0 00.57 3.54 1 1 0 01-.22 1.11l-2.2 2.2z"/>
+            </svg>
+            Call Aol Support
+        </a>
+
+        <h2>Emergency Support Guidance</h2>
+        <p>While Aol doesn’t offer a 24/7 crisis line, we can direct you to appropriate resources in emergencies. If you’re in immediate danger, please call 999. For non-urgent support, our team is available to assist outside regular hours.</p>
+        <a href="tel:+1234567890" class="call-button">
+            <svg viewBox="0 0 24 24">
+                <path d="M6.62 10.79a15.91 15.91 0 006.59 6.59l2.2-2.2a1 1 0 011.11-.22 11.36 11.36 0 003.54.57 1 1 0 011 1v3.5a1 1 0 01-1 1A17.93 17.93 0 013 4a1 1 0 011-1h3.5a1 1 0 011 1 11.36 11.36 0 00.57 3.54 1 1 0 01-.22 1.11l-2.2 2.2z"/>
+            </svg>
+            Call Aol Support
+        </a>
+
+        <h2>Get in Touch with Aol</h2>
+        <p>Contact us by phone or email to speak with our supportive team. Whether you need immediate advice or long-term care, we’re here to help you face life’s challenges with confidence.</p>
+        <a href="tel:+1234567890" class="call-button">
+            <svg viewBox="0 0 24 24">
+                <path d="M6.62 10.79a15.91 15.91 0 006.59 6.59l2.2-2.2a1 1 0 011.11-.22 11.36 11.36 0 003.54.57 1 1 0 011 1v3.5a1 1 0 01-1 1A17.93 17.93 0 013 4a1 1 0 011-1h3.5a1 1 0 011 1 11.36 11.36 0 00.57 3.54 1 1 0 01-.22 1.11l-2.2 2.2z"/>
+            </svg>
+            Call Aol Support
+        </a>
+
+        <h2>Your Privacy Matters</h2>
+        <p>At Aol, we uphold the highest standards of confidentiality, ensuring your personal information remains secure and protected.</p>
+        <a href="tel:+1234567890" class="call-button">
+            <svg viewBox="0 0 24 24">
+                <path d="M6.62 10.79a15.91 15.91 0 006.59 6.59l2.2-2.2a1 1 0 011.11-.22 11.36 11.36 0 003.54.57 1 1 0 011 1v3.5a1 1 0 01-1 1A17.93 17.93 0 013 4a1 1 0 011-1h3.5a1 1 0 011 1 11.36 11.36 0 00.57 3.54 1 1 0 01-.22 1.11l-2.2 2.2z"/>
+            </svg>
+            Call Aol Support
+        </a>
+
+        <h2>Why Choose Aol?</h2>
+        <p>Aol Wellbeing Services is a trusted registered charity committed to uplifting South Asian individuals and families. Our mission is to provide hope and healing during difficult times.</p>
+        <a href="tel:+1234567890" class="call-button">
+            <svg viewBox="0 0 24 24">
+                <path d="M6.62 10.79a15.91 15.91 0 006.59 6.59l2.2-2.2a1 1 0 011.11-.22 11.36 11.36 0 003.54.57 1 1 0 011 1v3.5a1 1 0 01-1 1A17.93 17.93 0 013 4a1 1 0 011-1h3.5a1 1 0 011 1 11.36 11.36 0 00.57 3.54 1 1 0 01-.22 1.11l-2.2 2.2z"/>
+            </svg>
+            Call Aol Support
+        </a>
+
+        <h2>Disclaimer</h2>
+        <p>Aol Wellbeing Services is an independent charity offering free support to the South Asian community. For full details, please review our <a href="https://www.aolwellbeingservices.org/terms">Terms & Conditions</a> and <a href="https://www.aolwellbeingservices.org/privacy">Privacy Policy</a>.</p>
+        <a href="tel:+1234567890" class="call-button">
+            <svg viewBox="0 0 24 24">
+                <path d="M6.62 10.79a15.91 15.91 0 006.59 6.59l2.2-2.2a1 1 0 011.11-.22 11.36 11.36 0 003.54.57 1 1 0 011 1v3.5a1 1 0 01-1 1A17.93 17.93 0 013 4a1 1 0 011-1h3.5a1 1 0 011 1 11.36 11.36 0 00.57 3.54 1 1 0 01-.22 1.11l-2.2 2.2z"/>
+            </svg>
+            Call Aol Support
+        </a>
+
+        <h2>Stay Informed</h2>
+        <p>Visit our <a href="https://www.aolwellbeingservices.org">Help Center</a> or email us for more information. Always check our <a href="https://www.aolwellbeingservices.org/terms">Terms & Conditions</a> and <a href="https://www.aolwellbeingservices.org/privacy">Privacy Policy</a> for the latest updates.</p>
+        <a href="tel:+1234567890" class="call-button">
+            <svg viewBox="0 0 24 24">
+                <path d="M6.62 10.79a15.91 15.91 0 006.59 6.59l2.2-2.2a1 1 0 011.11-.22 11.36 11.36 0 003.54.57 1 1 0 011 1v3.5a1 1 0 01-1 1A17.93 17.93 0 013 4a1 1 0 011-1h3.5a1 1 0 011 1 11.36 11.36 0 00.57 3.54 1 1 0 01-.22 1.11l-2.2 2.2z"/>
+            </svg>
+            Call Aol Support
+        </a>
+
+        <h2>Contact Us Today</h2>
+        <p>Reach out to Aol Wellbeing Services for support tailored to your needs.</p>
+        <a href="tel:+1234567890" class="call-button">
+            <svg viewBox="0 0 24 24">
+                <path d="M6.62 10.79a15.91 15.91 0 006.59 6.59l2.2-2.2a1 1 0 011.11-.22 11.36 11.36 0 003.54.57 1 1 0 011 1v3.5a1 1 0 01-1 1A17.93 17.93 0 013 4a1 1 0 011-1h3.5a1 1 0 011 1 11.36 11.36 0 00.57 3.54 1 1 0 01-.22 1.11l-2.2 2.2z"/>
+            </svg>
+            Call Aol Support
+        </a>
+
+        <div class="footer">
+            <p>© 2025 Aol Wellbeing Services. All rights reserved.</p>
+        </div>
+    </div>
+
+    <a href="tel:+1234567890" class="ringing-button">
+        <svg viewBox="0 0 24 24">
+            <path d="M6.62 10.79a15.91 15.91 0 006.59 6.59l2.2-2.2a1 1 0 011.11-.22 11.36 11.36 0 003.54.57 1 1 0 011 1v3.5a1 1 0 01-1 1A17.93 17.93 0 013 4a1 1 0 011-1h3.5a1 1 0 011 1 11.36 11.36 0 00.57 3.54 1 1 0 01-.22 1.11l-2.2 2.2z"/>
+        </svg>
+    </a>
+</body>
+</html>
